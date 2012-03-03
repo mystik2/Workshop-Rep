@@ -1,0 +1,5 @@
+C:\workspace\workshop_pittruff\SchwarzesBrett\bin\SchwarzesBrett.dll
+C:\workspace\workshop_pittruff\SchwarzesBrett\bin\SchwarzesBrett.pdb
+C:\workspace\workshop_pittruff\SchwarzesBrett\obj\Debug\ResolveAssemblyReference.cache
+C:\workspace\workshop_pittruff\SchwarzesBrett\obj\Debug\SchwarzesBrett.dll
+C:\workspace\workshop_pittruff\SchwarzesBrett\obj\Debug\SchwarzesBrett.pdb
