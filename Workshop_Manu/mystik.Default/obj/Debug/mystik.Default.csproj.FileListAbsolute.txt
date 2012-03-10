@@ -1,0 +1,5 @@
+C:\workspace\Workshop\Workshop_Manu\mystik.Default\obj\Debug\ResolveAssemblyReference.cache
+C:\workspace\Workshop\Workshop_Manu\mystik.Default\bin\Debug\mystik.Default.dll
+C:\workspace\Workshop\Workshop_Manu\mystik.Default\bin\Debug\mystik.Default.pdb
+C:\workspace\Workshop\Workshop_Manu\mystik.Default\obj\Debug\mystik.Default.dll
+C:\workspace\Workshop\Workshop_Manu\mystik.Default\obj\Debug\mystik.Default.pdb
