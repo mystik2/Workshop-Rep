@@ -141,6 +141,10 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\mystik.Default\mystik.Default.csproj">
+      <Project>{2E74AB4A-5D7C-4ADD-91FD-467D97C951FE}</Project>
+      <Name>mystik.Default</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Workshop_Manu\Workshop_Manu.csproj">
       <Project>{5F8B7DA7-D5AE-462D-B967-EF7C4C6308EE}</Project>
       <Name>Workshop_Manu</Name>

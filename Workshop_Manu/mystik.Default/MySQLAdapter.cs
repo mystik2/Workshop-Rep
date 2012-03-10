@@ -16,11 +16,11 @@ namespace MyStik.Default
         {
             this.myConnection = new MySqlConnection
                                         (
-                                            "UID=mystik;" +
-                                            "PASSWORD=12345;" +
+                                            "UID=root;" +
+                                            "PASSWORD=;" +
                                             "SERVER=localhost;" +
                                             "PORT=3306;" +
-                                            "DATABASE=mystik;"
+                                            "DATABASE=mystikworkshop;"
                                         );
 
 
@@ -39,7 +39,7 @@ namespace MyStik.Default
 
                 MySqlCommand command = this.myConnection.CreateCommand();
 
-                String resultQRY = String.Format(qry, args);
+                //String resultQRY = String.Format(qry, args);
                 //foreach (String arg in args)
                 //{
                 //    //params splitten
@@ -47,7 +47,7 @@ namespace MyStik.Default
                 //    command.Parameters.AddWithValue(tmpParam[0], tmpParam[1]);
                 //}
 
-                command.CommandText = resultQRY;
+                command.CommandText = qry;
 
                 MySqlDataReader objDataReader = command.ExecuteReader();
 

@@ -13,5 +13,10 @@ namespace SchwarzesBrett
         {
 
         }
+
+        protected void btButton_Click(object sender, EventArgs e)
+        {
+            mystik.Default.kunde.writeToDB(this.txtName.Text, this.txtVorname.Text);
+        }
     }
 }

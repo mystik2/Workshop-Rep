@@ -14,14 +14,15 @@
         <table border="1">
             <tr style="width: 150px">
                 <td><b>Name:</b></td>
-                <td><asp:TextBox ID="txtName" runat="server"></asp:TextBox></td>
+                <td><asp:TextBox ID="txtName" runat="server"></asp:TextBox></td>                
             </tr>
             <tr>
                 <td><b>Vorname:</b></td>
                 <td><asp:TextBox ID="txtVorname" runat="server"></asp:TextBox></td>
             </tr>
             <tr>
-                <td colspan="2"><asp:Button ID="btButton" runat="server" Text="Speichern" /></td>
+                <td colspan="2"><asp:Button ID="btButton" runat="server" Text="Speichern" 
+                        onclick="btButton_Click" /></td>
             </tr>
         </table>
        

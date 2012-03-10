@@ -7,7 +7,7 @@ using System.Data;
 
 namespace mystik.Default
 {
-    class kunde
+    public class kunde
     {
         int ID;
         String sNachname;
@@ -32,6 +32,14 @@ namespace mystik.Default
         private void setName(String p)
         {
             this.sNachname = p;
+        }
+
+        public static void writeToDB(String name, String vorname)
+        {
+            MySQLAdapter db = new MySQLAdapter();
+
+            db.Query("INSERT INTO kunde(vorname, nachname) VALUES('" + name + "', '" + vorname + "')");
+
         }
     }
 }
