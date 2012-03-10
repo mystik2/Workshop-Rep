@@ -8,7 +8,7 @@ namespace workshop_pittruff
     class Kunde
     {
         String sName;//Nachname vom Kunden
-        int iAlter;//Alter vom Kunden
+        int iAlter;//Alter vom Kunden (TEEEST)
 
         public void setName(String name) { 
                     
