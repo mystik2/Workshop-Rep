@@ -3,8 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner_Miki", "Taschenrechner_Miki\Taschenrechner_Miki.csproj", "{2760AE2E-E2CD-47F5-B38C-2EB719E51E9F}"
 EndProject
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Taschenrechner_Miki_WPF", "Taschenrechner_Miki_WPF\Taschenrechner_Miki_WPF.csproj", "{33B652F9-90D1-4DF3-8230-0BE10A9D761F}"
 EndProject
+=======
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,10 +18,13 @@ Global
 		{2760AE2E-E2CD-47F5-B38C-2EB719E51E9F}.Debug|x86.Build.0 = Debug|x86
 		{2760AE2E-E2CD-47F5-B38C-2EB719E51E9F}.Release|x86.ActiveCfg = Release|x86
 		{2760AE2E-E2CD-47F5-B38C-2EB719E51E9F}.Release|x86.Build.0 = Release|x86
+<<<<<<< HEAD
 		{33B652F9-90D1-4DF3-8230-0BE10A9D761F}.Debug|x86.ActiveCfg = Debug|x86
 		{33B652F9-90D1-4DF3-8230-0BE10A9D761F}.Debug|x86.Build.0 = Debug|x86
 		{33B652F9-90D1-4DF3-8230-0BE10A9D761F}.Release|x86.ActiveCfg = Release|x86
 		{33B652F9-90D1-4DF3-8230-0BE10A9D761F}.Release|x86.Build.0 = Release|x86
+=======
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

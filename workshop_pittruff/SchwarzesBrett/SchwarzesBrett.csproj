@@ -6,7 +6,11 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
     <ProjectGuid>{EA12C694-B225-450C-AB98-D7E50E894BE1}</ProjectGuid>
+=======
+    <ProjectGuid>{30779F49-13AB-4D16-946F-9C7AAAEF87EF}</ProjectGuid>
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -139,7 +143,11 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
+<<<<<<< HEAD
           <DevelopmentServerPort>50313</DevelopmentServerPort>
+=======
+          <DevelopmentServerPort>49312</DevelopmentServerPort>
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

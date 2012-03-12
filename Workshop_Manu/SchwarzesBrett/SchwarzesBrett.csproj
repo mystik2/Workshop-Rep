@@ -56,6 +56,10 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+<<<<<<< HEAD
+=======
+    <Content Include="RegisterKunde.aspx" />
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -117,6 +121,16 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
+=======
+    <Compile Include="RegisterKunde.aspx.cs">
+      <DependentUpon>RegisterKunde.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterKunde.aspx.designer.cs">
+      <DependentUpon>RegisterKunde.aspx</DependentUpon>
+    </Compile>
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -133,6 +147,13 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ProjectReference Include="..\mystik.Default\mystik.Default.csproj">
+      <Project>{2E74AB4A-5D7C-4ADD-91FD-467D97C951FE}</Project>
+      <Name>mystik.Default</Name>
+    </ProjectReference>
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
     <ProjectReference Include="..\Workshop_Manu\Workshop_Manu.csproj">
       <Project>{5F8B7DA7-D5AE-462D-B967-EF7C4C6308EE}</Project>
       <Name>Workshop_Manu</Name>

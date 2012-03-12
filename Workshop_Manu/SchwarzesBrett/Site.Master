@@ -34,6 +34,10 @@
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Homepage"/>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="Info"/>
+<<<<<<< HEAD
+=======
+                        <asp:MenuItem NavigateUrl="~/RegisterKunde.aspx" Text="RegisterKunde" />
+>>>>>>> 10b0ee0f6fbb68ddbb31932316bb1205f68e9d9e
                     </Items>
                 </asp:Menu>
             </div>

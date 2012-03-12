@@ -1,5 +1,0 @@
-E:\workspace\Workshop1_markus\Workshop_tag\WebApplication2\bin\WebApplication2.dll
-E:\workspace\Workshop1_markus\Workshop_tag\WebApplication2\bin\WebApplication2.pdb
-E:\workspace\Workshop1_markus\Workshop_tag\WebApplication2\obj\Debug\ResolveAssemblyReference.cache
-E:\workspace\Workshop1_markus\Workshop_tag\WebApplication2\obj\Debug\WebApplication2.dll
-E:\workspace\Workshop1_markus\Workshop_tag\WebApplication2\obj\Debug\WebApplication2.pdb
