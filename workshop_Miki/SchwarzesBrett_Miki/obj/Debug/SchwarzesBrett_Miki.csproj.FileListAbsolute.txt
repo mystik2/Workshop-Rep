@@ -1,0 +1,5 @@
+M:\Miki\Programmieren\Workspace\workshop_Miki\SchwarzesBrett_Miki\bin\SchwarzesBrett_Miki.dll
+M:\Miki\Programmieren\Workspace\workshop_Miki\SchwarzesBrett_Miki\bin\SchwarzesBrett_Miki.pdb
+M:\Miki\Programmieren\Workspace\workshop_Miki\SchwarzesBrett_Miki\obj\Debug\ResolveAssemblyReference.cache
+M:\Miki\Programmieren\Workspace\workshop_Miki\SchwarzesBrett_Miki\obj\Debug\SchwarzesBrett_Miki.dll
+M:\Miki\Programmieren\Workspace\workshop_Miki\SchwarzesBrett_Miki\obj\Debug\SchwarzesBrett_Miki.pdb

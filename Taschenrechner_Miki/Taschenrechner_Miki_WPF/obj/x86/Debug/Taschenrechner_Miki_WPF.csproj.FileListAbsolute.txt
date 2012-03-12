@@ -1,0 +1,13 @@
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\bin\Debug\Taschenrechner_Miki_WPF.exe
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\bin\Debug\Taschenrechner_Miki_WPF.pdb
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\MainWindow.baml
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\MainWindow.g.cs
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\App.g.cs
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\Taschenrechner_Miki_WPF_MarkupCompile.cache
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\Taschenrechner_Miki_WPF.g.resources
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\Taschenrechner_Miki_WPF.Properties.Resources.resources
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\Taschenrechner_Miki_WPF.exe
+M:\EigeneDaten\Miki\Programmieren\myStik\Workspace\Workshop\Taschenrechner_Miki\Taschenrechner_Miki_WPF\obj\x86\Debug\Taschenrechner_Miki_WPF.pdb

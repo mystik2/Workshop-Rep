@@ -1,0 +1,13 @@
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\MainWindow.baml
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\MainWindow.g.cs
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\App.g.cs
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\Workshop_tag_MarkupCompile.cache
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\Workshop_tag.g.resources
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\Workshop_tag.Properties.Resources.resources
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\bin\Debug\Workshop_tag.exe
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\bin\Debug\Workshop_tag.pdb
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\Workshop_tag.exe
+E:\workspace\Workshop1_markus\Workshop_tag\Workshop_tag\obj\x86\Debug\Workshop_tag.pdb
