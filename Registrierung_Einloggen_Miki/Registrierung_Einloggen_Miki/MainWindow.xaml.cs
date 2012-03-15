@@ -12,6 +12,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Registrierung_Einloggen_Miki;
+using System.Windows.Forms;
+
+
 
 namespace Registrierung_Einloggen_Miki
 {
@@ -25,17 +28,32 @@ namespace Registrierung_Einloggen_Miki
             InitializeComponent();
         }
 
+
         private void btbRegistrieren_Click(object sender, RoutedEventArgs e)
         {
             User Benutzer1 = new User();
 
-            Benutzer1.maxZeichenlaengeUsername(txtRegistrierUsername.ToString());
-            Benutzer1.minZeichenlaengePassword(txtRegistrierPassword.ToString());
+            String RegistrierUsername;
+            String RegistrierPassword;
 
-            MessageBox.Show("hier Username");
-            MessageBox.Show("heir PW");
+            RegistrierUsername = txtRegistrierUsername;
+            RegistrierPassword = txtRegistrierPassword;
+
+            Benutzer1.maxZeichenlaengeUsername(RegistrierUsername);
+            Benutzer1.minZeichenlaengePassword(RegistrierPassword);
+
+            //MessageBox.Show(Benutzer1.getUsername);
+            //MessageBox.Show(Benutzer1.getPassword);
         }
 
+      
+
+        private void btbLogin_Click(object sender, RoutedEventArgs e)
+        {
+           
+        }
+
+       
        
     }
 }

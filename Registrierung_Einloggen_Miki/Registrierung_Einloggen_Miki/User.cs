@@ -14,14 +14,14 @@ namespace Registrierung_Einloggen_Miki
         String sPassword;
         
         /// <summary>
-        /// 
+        /// Ueberpruefung des Passworts auf mindestens 6 Zeichen.
         /// </summary>
         /// <param name="eingabePassword"></param>
         public void minZeichenlaengePassword(String eingabePassword)
         {
-            int iLenght;
-            iLenght = eingabePassword.Length;
-            if (iLenght < 6)
+            int iLenghtPassword;
+            iLenghtPassword = eingabePassword.Length;
+            if (iLenghtPassword < 6)
             {
                 MessageBox.Show("Ihre Eingabe muss mindestens 6 Zeichen besitzen!");
             }
@@ -31,12 +31,15 @@ namespace Registrierung_Einloggen_Miki
             }
 
         }
-
+        /// <summary>
+        /// Ueberpruefung des Usernames auf maximal 15 Zeichen.
+        /// </summary>
+        /// <param name="eingabeUsername"></param>
         public void maxZeichenlaengeUsername(String eingabeUsername)
         {
-            int iLenght;
-            iLenght = eingabeUsername.Length;
-            if (iLenght > 15)
+            int iLenghtUsername;
+            iLenghtUsername = eingabeUsername.Length;
+            if (iLenghtUsername > 15)
             {
                 MessageBox.Show("Ihre Eingabe darf maximal 15 Zeichen besitzen!");
             }
@@ -56,15 +59,16 @@ namespace Registrierung_Einloggen_Miki
             this.sPassword = p;
         }
 
-        private void getUsername(string p)
+        public String getUsername()
         {
-            this.sPassword = p;
+            return this.sUsername;
         }
 
-        private void getPassword(string p)
+        public String getPassword() 
         {
-            this.sPassword = p;
+            return this.sPassword;
         }
+        
     }
 
 }
