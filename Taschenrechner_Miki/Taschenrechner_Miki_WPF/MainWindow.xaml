@@ -1,0 +1,24 @@
+﻿<Window x:Class="Taschenrechner_Miki_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="302" Width="320">
+    <Grid>
+        <Label Content="Taschenrechner" Height="30" HorizontalAlignment="Left" Margin="24,21,0,0" Name="lblTaschenrechner" VerticalAlignment="Top" Width="265" FontSize="15" FontWeight="Bold" />
+        <GroupBox Header="Rechenoperationen" Height="195" HorizontalAlignment="Left" Margin="165,60,0,0" Name="gbRechenoperationen" VerticalAlignment="Top" Width="124">
+            <Grid>
+                <Button Content="CE" Height="22" HorizontalAlignment="Left" Margin="0,6,0,0" Name="btCE" VerticalAlignment="Top" Width="96" Click="btCE_Click" />
+                <Button Content="+" Height="22" HorizontalAlignment="Left" Margin="0,34,0,0" Name="btAddieren" VerticalAlignment="Top" Width="96" />
+                <Button Content="-" Height="22" HorizontalAlignment="Left" Margin="0,62,0,0" Name="btSubtraktion" VerticalAlignment="Top" Width="96" />
+                <Button Content="*" Height="22" HorizontalAlignment="Left" Margin="0,90,0,0" Name="btMultiplikation" VerticalAlignment="Top" Width="96" />
+                <Button Content="/" Height="22" HorizontalAlignment="Left" Margin="0,118,0,0" Name="btDivision" VerticalAlignment="Top" Width="96" />
+                <Button Content="=" Height="22" HorizontalAlignment="Left" Margin="0,146,0,0" Name="btErgebnis" VerticalAlignment="Top" Width="96" />
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Eingabefeld" Height="93" HorizontalAlignment="Left" Margin="22,60,0,0" Name="gbEingabefeld" VerticalAlignment="Top" Width="137">
+            <TextBox Name="txtRechnen" Width="120" Height="64" />
+        </GroupBox>
+        <GroupBox Header="Ausgabefeld" Height="96" HorizontalAlignment="Left" Margin="24,159,0,0" Name="gbAusgabefeld" VerticalAlignment="Top" Width="135">
+            <TextBox Height="70" Name="txtErgebnis" Width="121" />
+        </GroupBox>
+    </Grid>
+</Window>
