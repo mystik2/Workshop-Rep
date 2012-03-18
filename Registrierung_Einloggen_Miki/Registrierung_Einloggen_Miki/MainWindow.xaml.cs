@@ -13,6 +13,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Registrierung_Einloggen_Miki;
 using System.Windows.Forms;
+using System.Data;
 
 
 
@@ -28,22 +29,26 @@ namespace Registrierung_Einloggen_Miki
             InitializeComponent();
         }
 
-
+        
+     
         private void btbRegistrieren_Click(object sender, RoutedEventArgs e)
         {
             User Benutzer1 = new User();
 
-            String RegistrierUsername;
-            String RegistrierPassword;
+            Benutzer1.maxZeichenlaengeUsername(txtRegistrierUsername.Text);
+            Benutzer1.minZeichenlaengePassword(txtRegistrierPassword.Text);
+            
+           //System.Windows.Forms.MessageBox.Show(Benutzer1.getUsername());
+           //System.Windows.Forms.MessageBox.Show(Benutzer1.getPassword());
 
-            RegistrierUsername = txtRegistrierUsername;
-            RegistrierPassword = txtRegistrierPassword;
+           //Tabellen DT = new Tabellen();
+           //Tabellen.GetTable(Benutzer1.getUsername(), Benutzer1.getPassword());,
 
-            Benutzer1.maxZeichenlaengeUsername(RegistrierUsername);
-            Benutzer1.minZeichenlaengePassword(RegistrierPassword);
+            DataTable table = new DataTable();
+            table.Columns.Add("Username", typeof(String));
+            table.Columns.Add("Password", typeof(String));
 
-            //MessageBox.Show(Benutzer1.getUsername);
-            //MessageBox.Show(Benutzer1.getPassword);
+            table.Rows.Add(Benutzer1.getUsername(), Benutzer1.getPassword());
         }
 
       

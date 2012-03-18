@@ -12,8 +12,8 @@
                 <TextBox Height="23" HorizontalAlignment="Left" Margin="72,11,0,0" Name="txtRegistrierUsername" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" />
                 <Label Content="Username:" Height="28" HorizontalAlignment="Left" Margin="6,6,0,0" Name="lblRegistrierUsername" VerticalAlignment="Top" />
                 <Label Content="Password:" Height="28" HorizontalAlignment="Left" Margin="6,44,0,0" Name="lblRegistrierPassword" VerticalAlignment="Top" />
-                <PasswordBox Height="23" HorizontalAlignment="Left" Margin="72,44,0,0" Name="txtRegistrierPassword" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" />
                 <Button Content="Registrieren" Height="23" HorizontalAlignment="Left" Margin="117,76,0,0" Name="btbRegistrieren" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="btbRegistrieren_Click" />
+                <TextBox Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="72,44,0,0" Name="txtRegistrierPassword" VerticalAlignment="Top" Width="120" />
             </Grid>
         </GroupBox>
         <GroupBox Header="Login" Height="134" HorizontalAlignment="Left" Margin="268,26,0,0" Name="gbLogin" VerticalAlignment="Top" Width="211">
@@ -24,9 +24,9 @@
                 </Grid.ColumnDefinitions>
                 <Label Content="Username:" Height="28" HorizontalAlignment="Left" Margin="6,6,0,0" Name="lblLoginUsername" VerticalAlignment="Top" />
                 <Label Content="Password:" Height="28" HorizontalAlignment="Left" Margin="6,44,0,0" Name="lblLoginPassword" VerticalAlignment="Top" />
-                <PasswordBox Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="72,44,0,0" Name="txtLoginPassword" VerticalAlignment="Top" Width="120" />
                 <Button Content="Login" Height="23" HorizontalAlignment="Left" Margin="117,76,0,0" Name="btbLogin" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="btbLogin_Click" />
                 <TextBox Height="23" HorizontalAlignment="Left" Margin="72,11,0,0" Name="txtLoginUsername" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" />
+                <TextBox Grid.ColumnSpan="2" Height="23" HorizontalAlignment="Left" Margin="73,46,0,0" Name="txtLoginPassword" VerticalAlignment="Top" Width="120" />
             </Grid>
         </GroupBox>
     </Grid>

@@ -12,25 +12,7 @@ namespace Registrierung_Einloggen_Miki
     {
         String sUsername;
         String sPassword;
-        
-        /// <summary>
-        /// Ueberpruefung des Passworts auf mindestens 6 Zeichen.
-        /// </summary>
-        /// <param name="eingabePassword"></param>
-        public void minZeichenlaengePassword(String eingabePassword)
-        {
-            int iLenghtPassword;
-            iLenghtPassword = eingabePassword.Length;
-            if (iLenghtPassword < 6)
-            {
-                MessageBox.Show("Ihre Eingabe muss mindestens 6 Zeichen besitzen!");
-            }
-            else
-            {
-                this.setPassword(eingabePassword);
-            }
 
-        }
         /// <summary>
         /// Ueberpruefung des Usernames auf maximal 15 Zeichen.
         /// </summary>
@@ -41,20 +23,39 @@ namespace Registrierung_Einloggen_Miki
             iLenghtUsername = eingabeUsername.Length;
             if (iLenghtUsername > 15)
             {
-                MessageBox.Show("Ihre Eingabe darf maximal 15 Zeichen besitzen!");
+                MessageBox.Show("Ihr Username darf maximal 15 Zeichen besitzen!", "Fehler");
             }
             else
             {
-                this.setUsername(eingabeUsername);
+                setUsername(eingabeUsername);
             }
 
         }
-       private void setUsername(string p)
+
+        /// <summary>
+        /// Ueberpruefung des Passworts auf mindestens 6 Zeichen.
+        /// </summary>
+        /// <param name="eingabePassword"></param>
+        public void minZeichenlaengePassword(String eingabePassword)
+        {
+            int iLenghtPassword;
+            iLenghtPassword = eingabePassword.Length;
+            if (iLenghtPassword < 6)
+            {
+                MessageBox.Show("Ihr Passwort muss mindestens 6 Zeichen besitzen!", "Fehler");
+            }
+            else
+            {
+                setPassword(eingabePassword);
+            }
+
+        }
+       public void setUsername(string p)
         {
             this.sUsername = p;
         }
 
-        private void setPassword(string p)
+        public void setPassword(string p)
         {
             this.sPassword = p;
         }
