@@ -30,8 +30,8 @@ namespace MyStik.Default
         /// Führt einen Query aus, ersetzt Platzhalter mit Values
         /// </summary>
         /// <param name="qry">BSP: SELECT * FROM `VVKUserDatabase` WHERE cardkey=@cardkey;</param>
-        /// <param name="args">Argumente mit @wert=value</param>
-        public DataTable Query(String qry, params String[] args)
+        /// <param name="args">Array Argumente mit 0=>wert 1=>value</param>
+        public DataTable Query(String qry, params String[][] args)
         {
             try
             {
@@ -39,15 +39,13 @@ namespace MyStik.Default
 
                 MySqlCommand command = this.myConnection.CreateCommand();
 
-                //String resultQRY = String.Format(qry, args);
-                //foreach (String arg in args)
-                //{
-                //    //params splitten
-                //    String[] tmpParam = arg.Split('=');
-                //    command.Parameters.AddWithValue(tmpParam[0], tmpParam[1]);
-                //}
-
-                command.CommandText = qry;
+                command.CommandText = qry;                
+                
+                foreach (String[] arg in args)
+                {
+                    //params splitten
+                    command.Parameters.AddWithValue(arg[0], arg[1]);                  
+                }                
 
                 MySqlDataReader objDataReader = command.ExecuteReader();
 
@@ -76,7 +74,6 @@ namespace MyStik.Default
 
             }
         }
-
 
     }
 }
