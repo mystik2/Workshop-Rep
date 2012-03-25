@@ -30,14 +30,17 @@ namespace Blackboard_Website_Vorlage
             {
                 MessageBox.Show("Passwortwiederholung war fehlerhaft!"); 
             }
+            
+            //txtRegistEmail.Text = null;
+            //txtRegistNachname.Text = myStik.Default.Textentfernen.TextWegInTxt(txtRegistNachname.Text);
+            //txtRegistVorname.Text = Textentfernen.TextWegInTxt(txtRegistVorname.Text);
+            //txtRegistGebdatum.Text = Textentfernen.TextWegInTxt(txtRegistGebdatum.Text);
+            //txtRegistUsername.Text = Textentfernen.TextWegInTxt(txtRegistUsername.Text);
+            //txtRegistPasswort.Text = Textentfernen.TextWegInTxt(txtRegistPasswort.Text);
+            //txtRegistWdhPasswort.Text = Textentfernen.TextWegInTxt(txtRegistWdhPasswort.Text);
+            //txtRegistEmail.Text = Textentfernen.TextWegInTxt(txtRegistEmail.Text);
 
-            txtRegistNachname.Text = Textentfernen.TextWegInTxt(txtRegistNachname.Text);
-            txtRegistVorname.Text = Textentfernen.TextWegInTxt(txtRegistVorname.Text);
-            txtRegistGebdatum.Text = Textentfernen.TextWegInTxt(txtRegistGebdatum.Text);
-            txtRegistUsername.Text = Textentfernen.TextWegInTxt(txtRegistUsername.Text);
-            txtRegistPasswort.Text = Textentfernen.TextWegInTxt(txtRegistPasswort.Text);
-            txtRegistWdhPasswort.Text = Textentfernen.TextWegInTxt(txtRegistWdhPasswort.Text);
-            txtRegistEmail.Text = Textentfernen.TextWegInTxt(txtRegistEmail.Text);
+
 
             //RS MANU: wie "aktivierungsemail" versenden-> eigene Klasse!!!, UND 
             //wie einrichten, dass wenn man auf den Link der Registrierungsmail klickt der User freigeschaltet wird, z.B. durch Eintrag in DB

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace myStik.Default
 {
-    class Textentfernen
+    public class Textentfernen
     {
         public static String TextWegInTxt(String Text)
         {

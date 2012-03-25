@@ -12,6 +12,8 @@ namespace myStik.Default
 {
    public class User
     {
+       //Funktion einfügen: Falsche Email zur registrierung eingegeben, wie kann man in txtRegistEmail die Endung der registrierungs email vorgeben?
+       
         int ID;
         String sUserNachname;
         String sUserVorname;
@@ -131,9 +133,9 @@ namespace myStik.Default
             }
         }
 
-        private Boolean checkPWInDB(String inputPassword)
+        private Boolean checkPWInDB(String inputPassword1)
         {
-            if (inputPassword == getPassword())
+            if (inputPassword1 == getPassword())
             {
                 return true;
             }
@@ -142,9 +144,9 @@ namespace myStik.Default
                 return false;
             }
         }
-       private Boolean checkPWequal(String inputPassword, String checkPassword)
+       private Boolean checkPWequal(String inputPassword2, String checkPassword)
        {
-            if (inputPassword == checkPassword)
+            if (inputPassword2 == checkPassword)
             {
                 return true;
             }
@@ -152,6 +154,25 @@ namespace myStik.Default
             {
                 return false;
             }
+       }
+
+       //evtl. Löschen und Sperren-funktion in 1 Methode
+
+       /// <summary>
+       /// ADMIN-Fuktion!
+       /// Funktionen des Users werden gesperrt und er wird in DB als gelöscht markiert.
+       /// </summary>
+       public void sperreUser()
+       {
+
+       }
+       /// <summary>
+       /// ADMIN-Fuktion!
+       /// Funktionen des Users werden gesperrt und er wird in DB als gelöscht markiert.
+       /// </summary>
+       public void löscheUser()
+       {
+
        }
     }
 }
